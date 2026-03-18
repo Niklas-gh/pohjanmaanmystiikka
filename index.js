@@ -18,7 +18,7 @@ async function init(sourceUrl, startingOrigin, proxyTs) {
     },
   };
 
-  const scope = "/pohjanmaanmystiikka";
+  const scope = "pohjanmaanmystiikka";
 
   if (!navigator.serviceWorker) {
     showError("Sorry, Service Workers are not supported in this browser (or mode)");
