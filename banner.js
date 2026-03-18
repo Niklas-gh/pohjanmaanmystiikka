@@ -19,7 +19,7 @@ function createBanner() {
   b.style.height = "30px";
   b.style.textAlign = "center";
   b.style.fontFamily = "system-ui; sans-serif";
-  b.style.backgroundColor = "rgb(77, 124, 15)";
+  b.style.backgroundColor = "rgb(51, 51, 255)";
   b.style.color = "white";
   b.style.zIndex = "1000000";
   b.innerText = "Katselet tämän sivun arkistoitua versiota" + dateStr;
