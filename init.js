@@ -1,1 +1,1 @@
-init("https://github.com/Niklas-gh/pohjanmaanmystiikka/blob/main/pm.wacz", "https://pohjanmaanmystiikka.blog/ ");
+init("./pm.wacz", "https://pohjanmaanmystiikka.blog/ ");
