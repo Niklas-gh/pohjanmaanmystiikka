@@ -25,7 +25,7 @@ async function init(sourceUrl, startingOrigin, proxyTs) {
     return;
   }
 
-  await navigator.serviceWorker.register("/sw.js?root=proxyreplay&proxyOriginMode=1", {scope});
+  await navigator.serviceWorker.register("sw.js?root=proxyreplay&proxyOriginMode=1", {scope});
 
   await new Promise((resolve) => {
     if (!navigator.serviceWorker.controller) {
